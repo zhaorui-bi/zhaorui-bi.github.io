@@ -1,0 +1,56 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: #8B4513;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 0.8em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2em;
+}
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+/*https://www.hostpapa.com/knowledgebase/align-float-images-website/ */
+#hp  {
+ float: left;    
+ margin: 0 100px 0 0;
+}
+#footer-wrap li {
+    margin-left: 10px;
+    list-style-type: none;
+}

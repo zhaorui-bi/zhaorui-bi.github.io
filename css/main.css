@@ -419,6 +419,19 @@ p {
   margin-top: 9px;
 }
 
+.publication-authors sup,
+.publication-note sup {
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.publication-note {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
 .publication-venue {
   color: var(--green);
   font-weight: 720;

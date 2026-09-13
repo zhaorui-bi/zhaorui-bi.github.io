@@ -416,7 +416,6 @@ p {
 .compact-row p,
 .timeline-item p,
 .sidebar-section > p {
-  max-width: 82ch;
   color: var(--muted);
   line-height: 1.64;
 }

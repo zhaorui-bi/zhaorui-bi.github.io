@@ -318,19 +318,12 @@ p {
 .publication-tag,
 .timeline-date,
 .entry-period {
+  margin: 0;
   color: var(--blue-dark);
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-}
-
-.section-heading h2 {
-  margin: 0;
-  color: var(--text);
-  font-size: clamp(1.36rem, 2.2vw, 1.76rem);
-  font-weight: 700;
-  line-height: 1.15;
 }
 
 .featured-list,

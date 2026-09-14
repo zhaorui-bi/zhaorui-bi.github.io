@@ -46,11 +46,16 @@ a {
   color: var(--blue);
   text-decoration: none;
   text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.07em;
 }
 
 a:hover {
   color: var(--blue-dark);
   text-decoration: underline;
+}
+
+::selection {
+  background: rgba(34, 75, 141, 0.16);
 }
 
 img {
@@ -70,7 +75,7 @@ p {
 
 .container {
   display: grid;
-  gap: 14px;
+  gap: 18px;
 }
 
 .profile-card,
@@ -252,6 +257,7 @@ p {
   color: var(--muted-strong);
   font-size: 1rem;
   line-height: 1.72;
+  text-wrap: pretty;
 }
 
 .profile-snapshot {
@@ -310,8 +316,17 @@ p {
 }
 
 .section-heading {
-  display: block;
-  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.section-heading::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
 }
 
 .section-kicker,

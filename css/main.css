@@ -12,7 +12,6 @@
   --muted-strong: #2c2c2c;
   --red: #c41e3a;
   --shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  --shadow-soft: 0 6px 16px rgba(0, 0, 0, 0.05);
   --radius: 0px;
   --max-width: 1180px;
   --content-width: 980px;
@@ -458,12 +457,16 @@ p {
   line-height: 1.28;
 }
 
-.featured-item h3 a {
+.featured-item h3 a,
+.profile-row h3 a,
+.compact-row h3 a {
   color: var(--text);
   text-decoration: none;
 }
 
-.featured-item h3 a:hover {
+.featured-item h3 a:hover,
+.profile-row h3 a:hover,
+.compact-row h3 a:hover {
   color: var(--red);
   text-decoration: none;
 }
@@ -805,7 +808,7 @@ p {
   }
 
   .profile-copy h1 {
-    font-size: 1.4rem;
+    font-size: min(1.35rem, 5.5vw);
   }
 
   .profile-headline {

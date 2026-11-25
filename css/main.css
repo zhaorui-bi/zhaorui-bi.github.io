@@ -385,6 +385,17 @@ p {
   letter-spacing: 0.1em;
 }
 
+.research-figure {
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.research-figure img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-soft);
+}
+
 .publication-tag {
   margin: 0;
   color: var(--red);
